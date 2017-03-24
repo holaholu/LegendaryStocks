@@ -1,12 +1,4 @@
-/*!
- * Bootstrap v2.3.2
- *
- * Copyright 2013 Twitter, Inc
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Designed and built with all the love in the world by @mdo and @fat.
- */
+
 
 .clearfix {
   *zoom: 1;
@@ -1914,6 +1906,12 @@ input.search-query {
 .form-search .input-prepend,
 .form-inline .input-prepend {
   margin-bottom: 0;
+}
+#mainbody {
+background-color:#297534;
+}
+#senter{
+  color:white;
 }
 
 .form-search .radio,

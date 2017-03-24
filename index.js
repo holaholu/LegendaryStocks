@@ -5,9 +5,9 @@ var http = require('http');
 var server = http.createServer(app);
 var io = require('socket.io').listen(server);
 
-var stocks = ['GE'];
+var stocks = ['FB'];
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 4000));
 
 app.use(express.static(__dirname + '/public'));
 
